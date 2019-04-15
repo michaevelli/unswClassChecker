@@ -6,7 +6,7 @@ Prints out class details for a specified course
 ## Usage
 
 <pre>
-$ <b>perl classcheck.pl COMP1000<b>
+$ <b>perl classcheck.pl COMP1000</b>
 Course: COMP1000
 === Term 1 ===
 Class does not run in Term 1
@@ -24,7 +24,7 @@ LEC	1UGA	7924	57/180	32%
 LEC	WEB1	7933	17/17	100%
 === Term 3 ===
 Class does not run in Term 3
-$ <b>perl classcheck.pl COMP1000 -t1 -t3<b>
+$ <b>perl classcheck.pl COMP1000 -t1 -t3</b>
 Course: COMP1000
 === Term 1 ===
 Class does not run in Term 1
