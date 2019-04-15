@@ -45,6 +45,7 @@ for (my $term = 1; $term <= 3; $term++) {
 					foreach my $class (@classFilter){
 						if (($2 eq $class) or ($3 eq $class)) {
 							$skip = 0;
+							last;
 						}
 					}
 					if ($skip) {
